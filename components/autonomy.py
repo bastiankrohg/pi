@@ -1,7 +1,7 @@
-from autonomous.obstacles import ObstacleAvoidance
-from autonomous.navigation import Navigation
-from autonomous.patterns import Patterns
-from autonomous.algorithms import Algorithms
+from components.autonomous.obstacles import ObstacleAvoidance
+from components.autonomous.navigation import Navigation
+from components.autonomous.patterns import Patterns
+from components.autonomous.algorithms import Algorithms
 
 class Autonomy:
     def __init__(self):
